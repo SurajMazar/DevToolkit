@@ -1,0 +1,112 @@
+{
+  "node": "v24.11.1",
+  "date": "2026-10-13T07:46:18.771Z",
+  "results": [
+    {
+      "name": "Text diff (scattered edits)",
+      "input": "10,000 lines · 0.9 MB",
+      "ms": 11.3
+    },
+    {
+      "name": "Text diff (scattered edits)",
+      "input": "100,000 lines · 8.6 MB",
+      "ms": 138.6
+    },
+    {
+      "name": "Text diff (scattered edits)",
+      "input": "1,000,000 lines · 87.2 MB",
+      "ms": 2514.5
+    },
+    {
+      "name": "Text diff (unrelated inputs)",
+      "input": "100,000 lines · 8.6 MB",
+      "ms": 142.2,
+      "note": "time budget / anchoring applies"
+    },
+    {
+      "name": "JSON parse (precision-safe)",
+      "input": "10,000 items · 1.6 MB",
+      "ms": 18
+    },
+    {
+      "name": "JSON format (2-space)",
+      "input": "10,000 items · 1.6 MB",
+      "ms": 13.9
+    },
+    {
+      "name": "JSON format (sorted keys)",
+      "input": "10,000 items · 1.6 MB",
+      "ms": 21.8
+    },
+    {
+      "name": "JSON structural diff (smart arrays)",
+      "input": "10,000 items · 1.6 MB",
+      "ms": 207.4
+    },
+    {
+      "name": "JSON parse (precision-safe)",
+      "input": "100,000 items · 16.0 MB",
+      "ms": 190.3
+    },
+    {
+      "name": "JSON format (2-space)",
+      "input": "100,000 items · 16.0 MB",
+      "ms": 147.2
+    },
+    {
+      "name": "JSON format (sorted keys)",
+      "input": "100,000 items · 16.0 MB",
+      "ms": 229.1
+    },
+    {
+      "name": "JSON structural diff (smart arrays)",
+      "input": "100,000 items · 16.0 MB",
+      "ms": 2091.1
+    },
+    {
+      "name": "JSON parse (precision-safe)",
+      "input": "300,000 items · 48.7 MB",
+      "ms": 599
+    },
+    {
+      "name": "JSON format (2-space)",
+      "input": "300,000 items · 48.7 MB",
+      "ms": 438.9
+    },
+    {
+      "name": "JSON format (sorted keys)",
+      "input": "300,000 items · 48.7 MB",
+      "ms": 706
+    },
+    {
+      "name": "JSON structural diff (smart arrays)",
+      "input": "300,000 items · 48.7 MB",
+      "ms": 6409.1
+    },
+    {
+      "name": "Case convert → camelCase (per line)",
+      "input": "100,000 lines · 3.0 MB",
+      "ms": 341.5
+    },
+    {
+      "name": "Case convert → Title Case",
+      "input": "100,000 lines · 3.0 MB",
+      "ms": 225.2
+    },
+    {
+      "name": "Case convert → camelCase (per line)",
+      "input": "1,000,000 lines · 31.4 MB",
+      "ms": 3450.2
+    },
+    {
+      "name": "Case convert → Title Case",
+      "input": "1,000,000 lines · 31.4 MB",
+      "ms": 2274.5
+    },
+    {
+      "name": "CSV parse (papaparse, header)",
+      "input": "200,000 rows · 13.3 MB",
+      "ms": 270.4
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-13T07:59:21.465Z",
+  "browser": "Chromium (Playwright, headless)",
+  "results": [
+    {
+      "name": "Text Diff: load both files + diff (worker) + render",
+      "input": "10,000 lines × 2 (0.9 MB each)",
+      "ms": 1009,
+      "status": "+11 −11 Modified 11 Blocks 11 Unchanged 100% Lines 10,000 → 10,000 Diff 15 ms"
+    },
+    {
+      "name": "Text Diff: jump to last change (virtualized view)",
+      "input": "10,000 lines",
+      "ms": 35
+    },
+    {
+      "name": "Text Diff: load both files + diff (worker) + render",
+      "input": "100,000 lines × 2 (8.6 MB each)",
+      "ms": 1812,
+      "status": "+101 −101 Modified 101 Blocks 101 Unchanged 100% Lines 100,000 → 100,000 Diff 86 ms"
+    },
+    {
+      "name": "Text Diff: jump to last change (virtualized view)",
+      "input": "100,000 lines",
+      "ms": 37
+    },
+    {
+      "name": "Text Diff: load both files + diff (worker) + render",
+      "input": "1,000,000 lines × 2 (87.2 MB each)",
+      "ms": 18501,
+      "status": "+1,004 −1,004 Modified 1,004 Blocks 1,004 Unchanged 100% Lines 1,000,000 → 1,000,000 Diff 1.54 s"
+    },
+    {
+      "name": "Text Diff: jump to last change (virtualized view)",
+      "input": "1,000,000 lines",
+      "ms": 40
+    },
+    {
+      "name": "JSON Formatter: load file + validate + format",
+      "input": "10,000 items (1.0 MB)",
+      "ms": 672
+    },
+    {
+      "name": "JSON Diff: load both + structural diff",
+      "input": "10,000 items (1.0 MB each)",
+      "ms": 2092
+    },
+    {
+      "name": "JSON Formatter: load file + validate + format",
+      "input": "100,000 items (10.7 MB)",
+      "ms": 2261
+    },
+    {
+      "name": "JSON Diff: load both + structural diff",
+      "input": "100,000 items (10.7 MB each)",
+      "ms": 5011
+    }
+  ]
+}
